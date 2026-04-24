@@ -32,4 +32,4 @@ if __name__ == "__main__":
         processor.execute(instruction)
         print(f"Registers after: {processor.registers.registers}")
     
-    print(f"\nFinal output (Y, assuming $0): {processor.registers.registers[0]}")
+    print(f"\nFinal output (Y=): {processor.registers.registers[0]}")
